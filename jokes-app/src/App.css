@@ -1,0 +1,73 @@
+html {
+  background: linear-gradient(90deg, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%);
+  background-size: 100vp;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.card-1 {
+  margin: 2rem auto;
+  padding: 2rem 0;
+  width: 50%;
+  box-shadow: 2px 2px 5px #000;
+  background: #ffa126;
+  font-weight: bold;
+}
+
+.form {
+  width: 30%;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 5px #000;
+  background: #ffa126;
+  border-radius: 10px;
+}
+
+.form input {
+  margin: 1rem 0;
+}
+
+.form-input {
+  margin: auto;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.form button {
+  width: 15%;
+  margin-bottom: 1rem;
+  background: #68fb4b;
+  font-weight: bold;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px #000;
+}
+
+.joke-page h1 {
+  font-size: 4rem;
+}
